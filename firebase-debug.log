@@ -1,0 +1,41 @@
+[debug] [2018-03-14T13:42:33.184Z] ----------------------------------------------------------------------
+[debug] [2018-03-14T13:42:33.192Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Ishan\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-03-14T13:42:33.192Z] CLI Version:   3.16.0
+[debug] [2018-03-14T13:42:33.192Z] Platform:      win32
+[debug] [2018-03-14T13:42:33.192Z] Node Version:  v6.11.5
+[debug] [2018-03-14T13:42:33.192Z] Time:          Wed Mar 14 2018 19:12:33 GMT+0530 (Sri Lanka Standard Time)
+[debug] [2018-03-14T13:42:33.192Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-03-14T13:42:33.288Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-03-14T13:42:33.292Z] > authorizing via signed-in user
+[debug] [2018-03-14T13:42:33.300Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-03-14T13:42:33.300Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/sjD_Mb1M5RE7AKIdaxieHHsVjsBUctp4nhul7O8ueYCq2dI3MeanL4Tu4qE5yn43',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Wed Mar 14 2018 19:12:33 GMT+0530 (Sri Lanka Standard Time)
+[debug] [2018-03-14T13:42:33.701Z] <<< HTTP RESPONSE 200
+[debug] [2018-03-14T13:42:33.724Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/bizscribe-31ec0  
+  
+ Wed Mar 14 2018 19:12:33 GMT+0530 (Sri Lanka Standard Time)
+[debug] [2018-03-14T13:42:35.080Z] <<< HTTP RESPONSE 200
+[debug] [2018-03-14T13:42:35.080Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/bizscribe-31ec0/tokens  
+  
+ Wed Mar 14 2018 19:12:35 GMT+0530 (Sri Lanka Standard Time)
+[debug] [2018-03-14T13:42:36.148Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'D:\Projects\BizScribe'...
+[info] 
+[debug] [2018-03-14T13:42:36.212Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/bizscribe-31ec0  
+  
+ Wed Mar 14 2018 19:12:36 GMT+0530 (Sri Lanka Standard Time)
+[debug] [2018-03-14T13:42:37.776Z] <<< HTTP RESPONSE 200
+[debug] [2018-03-14T13:42:37.780Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/551863677847/clients/_:getWebAppConfig  
+  
+ Wed Mar 14 2018 19:12:37 GMT+0530 (Sri Lanka Standard Time)
+[debug] [2018-03-14T13:42:38.936Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
