@@ -1728,7 +1728,7 @@ footer .attri a {
     font-size: 4rem;
 }
 #splash p {
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
     font-size: 3rem;
 }
 
@@ -1737,7 +1737,7 @@ blockquote p {
 }
 
 .theme-main-header .image-container{
-    width: 40px;
+    width: 180px;
     /* background: white; */
     display: inline-block
 }
